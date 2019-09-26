@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+}
+#show-img {
+  height: 100%;
+  width: 100%;
+}
+#show-img img {
+  height: 100%;
+  width: 100%;
+}
+.container-fluid {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+}
+.col-md-9 {
+  background-color: #f1f1f1;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.cadre {
+  width: 300px;
+  height: 300px;
+  background-color: #3ecf8e;
+}
+.logo {
+  left: 0;
+  bottom: 0;
+  position: absolute;
+}
+.logo img {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.col-md-3 {
+  background-color: white;
+  display: flex;
+  text-align: center;
+}
+.row {
+  margin-top: 20px;
+}
+.col-md-3 li  {
+  margin-top: 20px;
+  list-style-type: none;
+  font-size: 30px;
+  color: #707070;
+  font-weight: normal;
+}
+.col-md-3 img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.add input {
+  margin-top: 30px;
+}
+.add span input {
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+.dimensions {
+  margin-top: 30px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+.dimensions input {
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.selectColor {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 20px;
+}
+#favcolor {
+  border: none;
+  height: 50px;
+  width: 132px;
+}
+.valide button {
+  background-color: #32325d;
+  color: white;
+  margin-top: 50px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  letter-spacing: 1px ;
+}
+.angles {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+input[type=range].custom-slider {
+  -webkit-appearance: none;     /*nécessaire pour Chrome */
+  padding: 0;                   /* nécessaire pour IE */
+  font: inherit;                /* même rendu suivant font document */
+  outline: none;
+  color: #069;                  /* sert pour couleur de référence, via currentColor, pour le curseur */
+  opacity: .8;
+  background: #3ecf8e;             /* sert pour couleur de fond de la zone de déplacement */
+  box-sizing: border-box;       /* même modèle de boîte pour tous */
+  transition: opacity .2s;
+  cursor: pointer;
+}
